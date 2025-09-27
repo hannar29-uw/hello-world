@@ -1,0 +1,50 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdfaf5; /* very light tan */
+  color: #222; /* darker gray for body text */
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Headings */
+h1 {
+  color: #228B22; /* forest green */
+}
+
+h2 {
+  margin-top: 20px;
+  color: #2e9c2e; /* slightly lighter green than h1 */
+}
+
+/* Links */
+a {
+  color: #d73a49; /* GitHub red */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Buttons */
+button {
+  background-color: #228B22; /* forest green to match h1 */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #2e9c2e; /* lighter green on hover, matches h2 */
+}
